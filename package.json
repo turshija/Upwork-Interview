@@ -1,0 +1,27 @@
+{
+  "name": "upwork-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node client/app.js",
+    "server": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turshija/Upwork-Interview.git"
+  },
+  "author": "Boris Vujicic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turshija/Upwork-Interview/issues"
+  },
+  "homepage": "https://github.com/turshija/Upwork-Interview#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-fetch": "^1.7.3"
+  }
+}
