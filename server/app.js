@@ -53,8 +53,6 @@ transformArray = (folders) => {
 
 const transformedArray = transformArray(foldersArray);
 app.route('/folders').get((req, res) => {
-    // const folders = transformArray(foldersArray);
-    
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(transformedArray));
 });
